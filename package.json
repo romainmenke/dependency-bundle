@@ -1,0 +1,24 @@
+{
+  "name": "dependency-bundle",
+  "version": "0.1.2",
+  "description": "dependency bundle",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainmenke/dependency-bundle.git"
+  },
+  "author": "Romain Menke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romainmenke/dependency-bundle/issues"
+  },
+  "homepage": "https://github.com/romainmenke/dependency-bundle#readme",
+  "dependencies": {
+    "another-dependency": "0.1.2"
+  },
+  "bundledDependencies": [
+    "another-dependency"
+  ]
+}
